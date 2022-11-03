@@ -17,7 +17,7 @@ int _isitprime(int n, int i)
 			return (0);
 		else
 			return (_isitprime(n, i - 1));
-	}}
+	}
 }
 /**
  * is_prime_number - looks for prime
