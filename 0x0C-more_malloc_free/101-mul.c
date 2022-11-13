@@ -37,9 +37,9 @@ int _strlen(char *s)
 	{
 		i++;
 	}
-
 	return (i);
 }
+
 /**
  * errors - handles errors for main
  */
@@ -81,7 +81,6 @@ int main(int argc, char *argv[])
 			digit2 = s2[len2] - '0';
 			carry += result[len1 + len2 + 1] + (digit1 * digit2);
 			result[len1 + len2 + 1] = carry % 10;
-
 			carry /= 10;
 		}
 		if (carry > 0)
